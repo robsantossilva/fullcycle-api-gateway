@@ -58,17 +58,31 @@ Geralmente o API Gateway atua na camada de rede, provendo funcionalidades ortogo
 - Manutenção da APIs: Time de API ou time de criação/manutenção do serviço via configuração declarativa fazem atualizações, esta tarefa faz parte do deployment dos serviços
 - Suporte a ambientes: A instância controla um único ambiente, possui suporte a roteamento mais dinâmico como por exemplo Canary para facilitar o debugging.
 - Reduza o número de instancias para ganhar experiencia na gestão do ambiente para escalar para toda companhia.
-- Use a flexibilidade do deploymento para "particionar" suas APIs (use BOunded COntext do DDD)
+- Use a flexibilidade do deploymento para "particionar" suas APIs (use Bounded Context do DDD)
 - Tente ser **Stateless** o máximo possível isso vai aumentar muito a facilidade de escalabilidade/disponibilidade
 - Número de instancias pode ser um problema em equipes sem expertise em monitoramento/observabilidade
 - Granulidade fina demais, pode complicar a manutenção
 - Automação deve ser pensada desde o início da jornada
 
+#### Papel da API Gateway na Arquitetura de Microserviços
 
+**Hyperconnectivity mess**
 
+- Camada entre o externo e as aplicações / PEP - Policy Enforcement Point
+- Camada entre Microsserviços
 
+#### Vantagens e Desvantagens de um API Gateway
 
+Vantagens:
+- Padronização de algumas features ortogonais (logging, segunrança)
+- Ajuda na governança de rede da campanhia
+- Ponto único de entrada na rede, facilita gerenciamento
+- Ferramenta essencial para adoção de uma estratégia de APIs
 
+Desvantagens:
+- Adiciona alguma complexidade na sua arquitetura
+- Precisa de um cuidado extra, devido a disponibilidade
+- Ferramenta que precisa de manuenção/atualização
 
 
 
