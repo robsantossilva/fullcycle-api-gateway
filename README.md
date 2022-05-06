@@ -84,8 +84,11 @@ Desvantagens:
 - Precisa de um cuidado extra, devido a disponibilidade
 - Ferramenta que precisa de manuenção/atualização
 
-
-
+#### Como escolher um API Gateway
+- Considere o desenho das equipes da sua companhia na escolha.
+- Esquipes Especialistas: API Gateway Enterpriser
+- Equipes Multidisciplinares: Micro API Gateway 
+- Defina um plano para suas APIs, e inclua a escolha do API Gateway de acordo com a estrategia
 
 
 
