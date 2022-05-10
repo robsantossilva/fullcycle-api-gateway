@@ -90,10 +90,38 @@ Desvantagens:
 - Equipes Multidisciplinares: Micro API Gateway 
 - Defina um plano para suas APIs, e inclua a escolha do API Gateway de acordo com a estrategia
 
+# Kong API Gateway
+- API Gateway Open Source
+- Caracteristicas Micro Gateway
+- Deploy Flexivel
+- Pronto para Kubernetes
+- Extensivel via plugins
+
+#### Arquitetura
+- Administration APIs
+- Plugins
+- Clustering & Datastore
+- Open Resty
+- nginx
 
 
+Downstream ---->||----> Proxy ---->||----> Upstream
 
+#### Subscription
+- Plugins Pagos / Free
 
+#### Modelos de deployment
+- DB-Less
+- With Database
+![](.github/db-less-kong.JPG)
 
+- Deployment Distribuido
+- Deplyment Hibrido
+
+#### Konga
+- Interface administrativa para o Kong API Gateway
+- Visualização de métricas das instâncias
+- Controle de usuários
+https://github.com/pantsel/konga
 
 
