@@ -139,3 +139,18 @@ Podem ser configurados nas Rotas, Serviços, Consumers e Globalmente, atente-se 
 Você pode criar seu plugin utilizando a linguagem Lua, Javascript e Golang
 
 Kong API Gateway possui alguns plugins da comunidade que podemser instalados na versão community
+
+#### Correlation ID (Plugin)
+https://docs.konghq.com/hub/kong-inc/correlation-id/
+
+#### Response transformer (Plugin)
+https://docs.konghq.com/hub/kong-inc/response-transformer/
+
+#### Consumers
+Representa um consumidor que pode ser usuário ou um serviço, esse pode ser utilizado para aplicação de plugins de segurança.
+
+#### Basic Authentication
+https://docs.konghq.com/hub/kong-inc/basic-auth/
+
+#### Key Authentication
+https://docs.konghq.com/hub/kong-inc/key-auth/
