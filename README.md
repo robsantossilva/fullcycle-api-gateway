@@ -124,4 +124,18 @@ Downstream ---->||----> Proxy ---->||----> Upstream
 - Controle de usuários
 https://github.com/pantsel/konga
 
+#### Serviços
+Um serviço é uma entidade que representa uma API ou microserviço
+upstream - por exemplo, um microsserviço de transformação de dados ou uma API de cobrança
 
+#### Rotas
+"Caminho" de url que permite que um serviço seja acessado pelo Kong API Gateway
+
+#### Plugins
+Um pedaço de código que pode ser executado dentro de um ciclo de vida de uma requisição HTTP, tanto na fase de request como no response.
+
+Podem ser configurados nas Rotas, Serviços, Consumers e Globalmente, atente-se a precedencia das configurações.
+
+Você pode criar seu plugin utilizando a linguagem Lua, Javascript e Golang
+
+Kong API Gateway possui alguns plugins da comunidade que podemser instalados na versão community
