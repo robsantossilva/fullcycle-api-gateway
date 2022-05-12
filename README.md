@@ -154,3 +154,14 @@ https://docs.konghq.com/hub/kong-inc/basic-auth/
 
 #### Key Authentication
 https://docs.konghq.com/hub/kong-inc/key-auth/
+
+
+#### Modelo de deployment
+
+Como escolher o modelo de deployment do Kong API Gateway
+
+- Kong API Gateway na Borda (Edge); Protegendo serviços do mundo externo.
+- Kong API Gateway por Contexto; Entre Serviços. Estabelendo um controler de abuso de utilização
+
+- DB-Less
+- With Database
