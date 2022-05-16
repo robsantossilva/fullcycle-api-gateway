@@ -165,3 +165,15 @@ Como escolher o modelo de deployment do Kong API Gateway
 
 - DB-Less
 - With Database
+
+#### Desenho das Equipes
+
+Livro: Team Topologies
+
+- Times Especialistas: Instancia unica de API Gateway
+- Times Multidisciplinares: Multiplas instancias de API Gateway
+
+### Observabilidade
+
+#### Monitoramento
+- Métricas: Plugin compativel com prometheus. Analytics & Monitoring -> Prometheus
