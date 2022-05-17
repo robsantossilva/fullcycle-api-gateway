@@ -176,4 +176,12 @@ Livro: Team Topologies
 ### Observabilidade
 
 #### Monitoramento
-- Métricas: Plugin compativel com prometheus. Analytics & Monitoring -> Prometheus
+Métricas: Plugin compativel com prometheus. Analytics & Monitoring -> Prometheus
+Prometheus
+Grafana
+Node_exporter
+
+#### Logging
+Plugin Kong: Tcp Log
+Fluent-bit
+Elasticsearch
