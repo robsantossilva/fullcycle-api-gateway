@@ -175,13 +175,24 @@ Livro: Team Topologies
 
 ### Observabilidade
 
-#### Monitoramento
+#### 1 Monitoramento
 Métricas: Plugin compativel com prometheus. Analytics & Monitoring -> Prometheus
 Prometheus
 Grafana
 Node_exporter
 
-#### Logging
+#### 2 Logging
 Plugin Kong: Tcp Log
 Fluent-bit
 Elasticsearch
+
+#### 3 Tracing Distríbuido
+jaegertracing
+Plugin: zipkin
+
+### Day 2
+1. Monitoramento
+2. Logs
+3. Tracing
+4. API Gateway como manobra de monolito para microserviço
+5. Automatize, Automatize, Automatize!!!
